@@ -1,0 +1,10 @@
+user before API: {
+  email: 'Deontae.Gottlieb58@gmail.com',
+  password: 'Password123',
+  repeatPassword: 'Password123'
+}
+user: {
+  email: 'Deontae.Gottlieb58@gmail.com',
+  password: 'Password123',
+  repeatPassword: 'Password123'
+}

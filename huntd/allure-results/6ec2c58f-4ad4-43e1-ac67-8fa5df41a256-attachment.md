@@ -1,0 +1,212 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "Huntd" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8] [cursor=pointer]
+        - navigation [ref=e15]:
+          - generic [ref=e16]:
+            - link "Candidates" [ref=e17] [cursor=pointer]:
+              - /url: /candidates
+            - link "Jobs" [ref=e18] [cursor=pointer]:
+              - /url: /jobs
+        - generic [ref=e20]:
+          - link "Sign In" [ref=e21] [cursor=pointer]:
+            - /url: /sign-in
+          - link "Sign up" [ref=e22] [cursor=pointer]:
+            - /url: /sign-up
+    - generic [ref=e26]:
+      - heading "Welcome aboard!" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Create an account
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Email
+            - textbox "Email" [ref=e35]: Lucile99@yahoo.com
+          - generic [ref=e36]:
+            - generic [ref=e37]: Password
+            - generic [ref=e39]:
+              - textbox "Password" [ref=e40]: Password123
+              - generic "Toggle" [ref=e41] [cursor=pointer]:
+                - img [ref=e42] [cursor=pointer]
+                - checkbox "Toggle" [ref=e44]
+          - generic [ref=e45]:
+            - generic [ref=e46]: Repeat password
+            - generic [ref=e48]:
+              - textbox "Repeat password" [ref=e49]: Password123
+              - generic "Toggle" [ref=e50] [cursor=pointer]:
+                - img [ref=e51] [cursor=pointer]
+                - checkbox "Toggle" [ref=e53]
+          - button "Create account" [ref=e54] [cursor=pointer]:
+            - generic [ref=e55] [cursor=pointer]: Create account
+        - generic [ref=e58]:
+          - paragraph [ref=e59]: Sign up with
+          - generic [ref=e60]:
+            - button "Sign in with" [ref=e61] [cursor=pointer]:
+              - img [ref=e62] [cursor=pointer]
+            - button "Sign in with" [ref=e64] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+            - button "Sign in with" [ref=e69] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+      - paragraph [ref=e72]:
+        - text: Already have an account?
+        - link "Sign In" [ref=e73] [cursor=pointer]:
+          - /url: /sign-in
+    - contentinfo [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - paragraph [ref=e78]: Join the future
+            - heading "Top 100 web3 companies" [level=2] [ref=e79]
+            - generic [ref=e80]:
+              - generic [ref=e82]:
+                - link "Coinbase" [ref=e83] [cursor=pointer]:
+                  - /url: /jobs/company/coinbase
+                  - generic [ref=e84] [cursor=pointer]:
+                    - img [ref=e86] [cursor=pointer]
+                    - img "Coinbase" [ref=e87] [cursor=pointer]
+                - heading "Coinbase" [level=3] [ref=e88]
+              - generic [ref=e90]:
+                - link "Binance" [ref=e91] [cursor=pointer]:
+                  - /url: /jobs/company/binance
+                  - generic [ref=e92] [cursor=pointer]:
+                    - img [ref=e94] [cursor=pointer]
+                    - img "Binance" [ref=e95] [cursor=pointer]
+                - heading "Binance" [level=3] [ref=e96]
+              - generic [ref=e98]:
+                - link "Near" [ref=e99] [cursor=pointer]:
+                  - /url: /jobs/company/near
+                  - generic [ref=e100] [cursor=pointer]:
+                    - img [ref=e102] [cursor=pointer]
+                    - img "Near" [ref=e103] [cursor=pointer]
+                - heading "Near" [level=3] [ref=e104]
+              - generic [ref=e106]:
+                - link "GlobalID" [ref=e107] [cursor=pointer]:
+                  - /url: /jobs/company/globalid
+                  - generic [ref=e108] [cursor=pointer]:
+                    - img [ref=e110] [cursor=pointer]
+                    - img "GlobalID" [ref=e111] [cursor=pointer]
+                - heading "GlobalID" [level=3] [ref=e112]
+              - generic [ref=e114]:
+                - link "Consensys" [ref=e115] [cursor=pointer]:
+                  - /url: /jobs/company/consensys
+                  - generic [ref=e116] [cursor=pointer]:
+                    - img [ref=e118] [cursor=pointer]
+                    - img "Consensys" [ref=e119] [cursor=pointer]
+                - heading "Consensys" [level=3] [ref=e120]
+            - link "View top 100" [ref=e121] [cursor=pointer]:
+              - /url: /web3-companies
+              - generic [ref=e122] [cursor=pointer]: View top 100
+              - img [ref=e123] [cursor=pointer]
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - heading "Hire Web3 Developer" [level=3] [ref=e127]
+              - link "Hire Backend Web3 Developer" [ref=e128] [cursor=pointer]:
+                - /url: /developers/web3-backend
+              - link "Hire Frontend Web3 Developer" [ref=e129] [cursor=pointer]:
+                - /url: /developers/web3-frontend
+              - link "Hire Mobile Web3 Developer" [ref=e130] [cursor=pointer]:
+                - /url: /developers/web3-mobile
+              - link "Hire Full-Stack Web3 Developer" [ref=e131] [cursor=pointer]:
+                - /url: /developers/web3-full-stack
+              - link "Hire React Web3 Developer" [ref=e132] [cursor=pointer]:
+                - /url: /developers/web3-react
+              - link "Hire Blockchain Web3 Developer" [ref=e133] [cursor=pointer]:
+                - /url: /developers/blockchain
+              - link "Hire Defi Web3 Developer" [ref=e134] [cursor=pointer]:
+                - /url: /developers/web3-defi
+              - link "Hire Nft Web3 Developer" [ref=e135] [cursor=pointer]:
+                - /url: /developers/web3-nft
+              - link "Hire Smart Contract Web3 Developer" [ref=e136] [cursor=pointer]:
+                - /url: /developers/web3-smart-contract
+              - link "Hire Solidity Web3 Developer" [ref=e137] [cursor=pointer]:
+                - /url: /developers/solidity
+              - link "Hire Solana Web3 Developer" [ref=e138] [cursor=pointer]:
+                - /url: /developers/solana
+            - generic [ref=e141]:
+              - heading "Remote Web3 jobs" [level=3] [ref=e142]
+              - link "Backend Remote Web3 jobs" [ref=e143] [cursor=pointer]:
+                - /url: /jobs/web3-backend
+              - link "Frontend Remote Web3 jobs" [ref=e144] [cursor=pointer]:
+                - /url: /jobs/web3-frontend
+              - link "Mobile Remote Web3 jobs" [ref=e145] [cursor=pointer]:
+                - /url: /jobs/web3-mobile
+              - link "Full-Stack Remote Web3 jobs" [ref=e146] [cursor=pointer]:
+                - /url: /jobs/web3-full-stack
+              - link "React Remote Web3 jobs" [ref=e147] [cursor=pointer]:
+                - /url: /jobs/web3-react
+              - link "Defi Remote Web3 jobs" [ref=e148] [cursor=pointer]:
+                - /url: /jobs/web3-defi
+              - link "Nft Remote Web3 jobs" [ref=e149] [cursor=pointer]:
+                - /url: /jobs/web3-nft
+              - link "Javascript Remote Web3 jobs" [ref=e150] [cursor=pointer]:
+                - /url: /jobs/web3-javascript
+              - link "Smart Contract Remote Web3 jobs" [ref=e151] [cursor=pointer]:
+                - /url: /jobs/web3-smart-contract
+              - link "Solidity Remote Web3 jobs" [ref=e152] [cursor=pointer]:
+                - /url: /jobs/web3-solidity
+              - link "Solana Remote Web3 jobs" [ref=e153] [cursor=pointer]:
+                - /url: /jobs/web3-solana
+            - generic [ref=e156]:
+              - heading "Remote Web3 Salaries" [level=3] [ref=e157]
+              - link "Backend Remote Web3 Salaries" [ref=e158] [cursor=pointer]:
+                - /url: /salaries/web3-backend
+              - link "Frontend Remote Web3 Salaries" [ref=e159] [cursor=pointer]:
+                - /url: /salaries/web3-frontend
+              - link "Mobile Remote Web3 Salaries" [ref=e160] [cursor=pointer]:
+                - /url: /salaries/web3-mobile
+              - link "Full-Stack Remote Web3 Salaries" [ref=e161] [cursor=pointer]:
+                - /url: /salaries/web3-full-stack
+              - link "React Remote Web3 Salaries" [ref=e162] [cursor=pointer]:
+                - /url: /salaries/web3-react
+              - link "Defi Remote Web3 Salaries" [ref=e163] [cursor=pointer]:
+                - /url: /salaries/web3-defi
+              - link "Nft Remote Web3 Salaries" [ref=e164] [cursor=pointer]:
+                - /url: /salaries/web3-nft
+              - link "Javascript Remote Web3 Salaries" [ref=e165] [cursor=pointer]:
+                - /url: /salaries/web3-javascript
+              - link "Smart Contract Remote Web3 Salaries" [ref=e166] [cursor=pointer]:
+                - /url: /salaries/web3-smart-contract
+              - link "Solidity Remote Web3 Salaries" [ref=e167] [cursor=pointer]:
+                - /url: /salaries/web3-solidity
+              - link "Solana Remote Web3 Salaries" [ref=e168] [cursor=pointer]:
+                - /url: /salaries/web3-solana
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - link "Huntd" [ref=e171] [cursor=pointer]:
+              - /url: /
+              - img [ref=e172] [cursor=pointer]
+            - generic [ref=e178]:
+              - link "LinkedIn" [ref=e179] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/huntd-tech
+                - img [ref=e180] [cursor=pointer]
+              - link "Facebook" [ref=e184] [cursor=pointer]:
+                - /url: https://www.facebook.com/huntd.tech
+                - img [ref=e185] [cursor=pointer]
+              - link "Twitter" [ref=e187] [cursor=pointer]:
+                - /url: https://twitter.com/huntd_tech
+                - img [ref=e188] [cursor=pointer]
+              - link "Instagram" [ref=e190] [cursor=pointer]:
+                - /url: https://www.instagram.com/huntd.tech/
+                - img [ref=e191] [cursor=pointer]
+          - generic [ref=e196]:
+            - link "Terms of use" [ref=e197] [cursor=pointer]:
+              - /url: /terms-of-use.pdf
+            - link "Cookies policy" [ref=e198] [cursor=pointer]:
+              - /url: /cookies-policy.pdf
+            - link "Privacy policy" [ref=e199] [cursor=pointer]:
+              - /url: /privacy-policy.pdf
+          - generic [ref=e201]:
+            - link "About us" [ref=e202] [cursor=pointer]:
+              - /url: /about-us
+            - link "FAQs" [ref=e203] [cursor=pointer]:
+              - /url: /pricing#faq
+            - link "Pricing" [ref=e204] [cursor=pointer]:
+              - /url: /pricing
+          - paragraph [ref=e207]: All rights reserved. 2025
+  - alert [ref=e208]
+```

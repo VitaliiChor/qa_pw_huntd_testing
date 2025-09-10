@@ -1,0 +1,10 @@
+this.user = {
+  email: 'Kari81@yahoo.com',
+  password: 'Password123',
+  repeatPassword: 'Password123'
+}
+user before API: {
+  email: 'Tad72@hotmail.com',
+  password: 'Password123',
+  repeatPassword: 'Password123'
+}

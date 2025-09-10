@@ -1,0 +1,5 @@
+user before API: {
+  email: 'Alec_Quigley14@yahoo.com',
+  password: 'Password123',
+  repeatPassword: 'Password123'
+}
