@@ -1,5 +1,0 @@
-user before API: {
-  email: 'Aylin_Gulgowski@gmail.com',
-  password: 'Password123',
-  repeatPassword: 'Password123'
-}
