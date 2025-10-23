@@ -57,4 +57,8 @@ export class BasePage {
       }
     );
   }
+
+  async assertErrorMessageContainsText(errorLocator, expectedText) {
+    await expect(errorLocator).toContainText(expectedText);
+  }
 }

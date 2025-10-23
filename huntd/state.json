@@ -1,0 +1,109 @@
+{
+  "cookies": [
+    {
+      "name": "sbjs_migrations",
+      "value": "1418474375998%3D1",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1776763903,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_current_add",
+      "value": "fd%3D2025-10-23%2011%3A31%3A43%7C%7C%7Cep%3Dhttps%3A%2F%2Fhuntd.tech%2Fsign-up%7C%7C%7Crf%3D%28none%29",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1776763903,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_first_add",
+      "value": "fd%3D2025-10-23%2011%3A31%3A43%7C%7C%7Cep%3Dhttps%3A%2F%2Fhuntd.tech%2Fsign-up%7C%7C%7Crf%3D%28none%29",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1776763903,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_current",
+      "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1776763903,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_first",
+      "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1776763903,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_udata",
+      "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20HeadlessChrome%2F141.0.7390.37%20Safari%2F537.36",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1776763903,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_session",
+      "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fhuntd.tech%2Fsign-up",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1761213703,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "amp_3d3b30",
+      "value": "e86XxwdBpnJjBvooP6XnaW...1j886hs21.1j886hs21.0.0.0",
+      "domain": ".huntd.tech",
+      "path": "/",
+      "expires": 1792747904,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x-token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTg4MDQsImVtYWlsIjoibWF5bmFyZF9oZXJ6b2dAaG90bWFpbC5jb20iLCJpYXQiOjE3NjEyMTE5MDQsImV4cCI6MTc2MzgwMzkwNH0.wnxs2eXEs24d3hL5_K7-SWd2ekGr0ywyjKn1k6cVkLc",
+      "domain": "huntd.tech",
+      "path": "/",
+      "expires": 1763803904.450423,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://huntd.tech",
+      "localStorage": [
+        {
+          "name": "amplitude_unsent_3d3b30ec2e3330068e9d26a8fe22f938",
+          "value": "[{\"device_id\":\"e86XxwdBpnJjBvooP6XnaW\",\"user_id\":null,\"timestamp\":1761211904458,\"event_id\":1,\"session_id\":1761211904065,\"event_type\":\"sign_up\",\"version_name\":null,\"platform\":\"Web\",\"os_name\":\"Chrome Headless\",\"os_version\":\"141\",\"device_model\":\"Mac OS\",\"device_manufacturer\":null,\"language\":\"en-US\",\"api_properties\":{},\"event_properties\":{\"method\":\"password\",\"source\":\"sign_up_page\"},\"user_properties\":{},\"uuid\":\"96f352b8-0d82-4a95-92b2-851c7d75b498\",\"library\":{\"name\":\"amplitude-js\",\"version\":\"8.12.0\"},\"sequence_number\":1,\"groups\":{},\"group_properties\":{},\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36\"}]"
+        },
+        {
+          "name": "amplitude_unsent_identify_3d3b30ec2e3330068e9d26a8fe22f938",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}

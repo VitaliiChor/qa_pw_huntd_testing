@@ -76,9 +76,6 @@ export class SignUpPage extends BasePage {
     return this.matchPasswordMessage;
   }
 
-  async assertErrorMessageContainsText(errorLocator, expectedText) {
-    await expect(errorLocator).toContainText(expectedText);
-  }
 
   async clearForm() {
     await this.emailInput.fill("");

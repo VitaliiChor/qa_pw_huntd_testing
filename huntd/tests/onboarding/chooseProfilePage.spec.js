@@ -4,9 +4,11 @@ import { test, expect } from "../_fixtures/fixtures";
 test.describe("Huntd User on Choose-Profile screen", () => {
   test("User can click Candidate button", async ({
     onboardingProfilePage,
+    candidateRolePage,
     user,
   }) => {
     await onboardingProfilePage.clickCandidateBtn();
+    await candidateRolePage.assertTitle();
   });
 
   test("User can click Recruiter button", async ({
